@@ -1684,6 +1684,112 @@ en:
         - WV
         - WI
         - WY
+      state_by_abbr:
+        AL: Alabama
+        AK: Alaska
+        AZ: Arizona
+        AR: Arkansas
+        AS: American Samoa
+        CA: California
+        CO: Colorado
+        CT: Connecticut
+        DC: District of Columbia
+        DE: Delaware
+        FL: Florida
+        GA: Georgia
+        HI: Hawaii
+        ID: Idaho
+        IL: Illinois
+        IN: Indiana
+        IA: Iowa
+        KS: Kansas
+        KY: Kentucky
+        LA: Louisiana
+        ME: Maine
+        MD: Maryland
+        MA: Massachusetts
+        MI: Michigan
+        MN: Minnesota
+        MS: Mississippi
+        MO: Missouri
+        MT: Montana
+        NE: Nebraska
+        NV: Nevada
+        NH: New Hampshire
+        NJ: New Jersey
+        NM: New Mexico
+        NY: New York
+        NC: North Carolina
+        ND: North Dakota
+        OH: Ohio
+        OK: Oklahoma
+        OR: Oregon
+        PA: Pennsylvania
+        RI: Rhode Island
+        SC: South Carolina
+        SD: South Dakota
+        TN: Tennessee
+        TX: Texas
+        UT: Utah
+        VT: Vermont
+        VA: Virginia
+        WA: Washington
+        WV: West Virginia
+        WI: Wisconsin
+        WY: Wyoming
+      state_by_name:
+        alabama : AL
+        alaska: AK
+        arizona: AK
+        arkansas: AR
+        american_samoa: AS
+        california: CA
+        colorado: CO
+        connecticut: CT
+        district_of_columbia: DC
+        delaware: DE
+        florida: FL
+        georgia: GA
+        hawaii: HI
+        idaho: ID
+        illinois: IL
+        indiana: IN
+        iowa: IA
+        kansas: KS
+        kentucky: KY
+        louisiana: LA
+        maine: ME
+        maryland: MD
+        massachusetts: MA
+        michigan: MI
+        minnesota: MN
+        mississippi: MS
+        missouri: MO
+        montana: MT
+        nebraska: NE
+        nevada: NV
+        new_hampshire: NH
+        new_jersey: NJ
+        new_mexico: NM
+        new_york: NY
+        north_carolina: NC
+        north_dakota: ND
+        ohio: OH
+        oklahoma: OK
+        oregon: OR
+        pennsylvania: PA
+        rhode_island: RI
+        south_carolina :SC
+        south_dakota: SD
+        tennessee: TN
+        texas: TX
+        utah: UT
+        vermont: VT
+        virginia: VA
+        washington :WA
+        west_virginia WV
+        wisconsin: WI
+        wyoming: WY
       time_zone:
         - Pacific/Midway
         - Pacific/Pago_Pago
