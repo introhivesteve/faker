@@ -188,8 +188,13 @@ module Faker
       #   Faker::Address.state_abbr #=> "AP"
       #
       # @faker.version 0.3.0
-      def state_abbr
-        fetch('address.state_abbr')
+      def state_abbr(state: '')
+        if state.empty?
+          return fetch('address.state_abbr')
+        end
+        # provide a state abbreviation that is valid for the state provided
+        # see http://www.fincen.gov/forms/files/us_state_territory_zip_codes.pdf
+        bothify(fetch("address.state_by_name.#{state}"))
       end
 
       ##
@@ -201,8 +206,14 @@ module Faker
       #   Faker::Address.state #=> "California"
       #
       # @faker.version 0.3.0
-      def state
-        fetch('address.state')
+      def state(state_abbreviation: '')
+        if state_abbreviation.empty?
+          return fetch('address.state')
+        end
+
+        # provide a state that is valid for the state abbreviation provided
+        # see http://www.fincen.gov/forms/files/us_state_territory_zip_codes.pdf
+        bothify(fetch("address.state_by_abbr.#{state_abbreviation}"))
       end
 
       ##
