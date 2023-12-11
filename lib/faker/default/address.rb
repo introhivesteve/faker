@@ -194,7 +194,8 @@ module Faker
         end
         # provide a state abbreviation that is valid for the state provided
         # see http://www.fincen.gov/forms/files/us_state_territory_zip_codes.pdf
-        bothify(fetch("address.state_by_name.#{state}"))
+        # bothify(fetch("address.state_by_name.#{state}"))
+        fetch('address.state_abbr') + state
       end
 
       ##
@@ -213,7 +214,8 @@ module Faker
 
         # provide a state that is valid for the state abbreviation provided
         # see http://www.fincen.gov/forms/files/us_state_territory_zip_codes.pdf
-        bothify(fetch("address.state_by_abbr.#{state_abbreviation}"))
+        # bothify(fetch("address.state_by_abbr.#{state_abbreviation}"))
+        fetch('address.state') + state_abbreviation
       end
 
       ##
