@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary     = 'Easily generate fake data'
   spec.description = 'Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.'
-  spec.homepage    = 'https://github.com/faker-ruby/faker'
+  spec.homepage    = 'https://github.com/introhivesteve/faker'
   spec.license     = 'MIT'
 
   spec.files         = Dir['lib/**/*'] + %w[History.md License.txt CHANGELOG.md README.md]
@@ -21,10 +21,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 2.7'
 
-  spec.metadata['changelog_uri'] = 'https://github.com/faker-ruby/faker/blob/main/CHANGELOG.md'
-  spec.metadata['source_code_uri'] = 'https://github.com/faker-ruby/faker'
-  spec.metadata['bug_tracker_uri'] = 'https://github.com/faker-ruby/faker/issues'
-  spec.metadata['documentation_uri'] = 'https://rubydoc.info/github/faker-ruby/faker'
+  spec.metadata['changelog_uri'] = 'https://github.com/introhivesteve/faker/blob/main/CHANGELOG.md'
+  spec.metadata['source_code_uri'] = 'https://github.com/introhivesteve/faker'
+  spec.metadata['bug_tracker_uri'] = 'https://github.com/introhivesteve/faker/issues'
+  spec.metadata['documentation_uri'] = 'https://github.com/introhivesteve/faker'
   spec.metadata['yard.run'] = 'yri'
   spec.metadata['rubygems_mfa_required'] = 'true'
 
